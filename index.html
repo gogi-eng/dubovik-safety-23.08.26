@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title></title>
+    <link rel="preload" as="image" href="images/portrait-about.png?v=20260822h">
+    <link rel="preload" as="image" href="images/portrait-office.png?v=20260822h">
+    <link rel="stylesheet" href="styles.css?v=20260823f">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home" data-i18n="navHome"></a></li>
+            <li><a href="#about" data-i18n="navAbout"></a></li>
+            <li><a href="#services" data-i18n="navServices"></a></li>
+            <li><a href="#pricing" data-i18n="navPricing"></a></li>
+            <li><a href="#process" data-i18n="navProcess"></a></li>
+            <li><a href="#gallery" data-i18n="navGallery"></a></li>
+            <li><a href="#contact" data-i18n="navContact"></a></li>
+            <li><button type="button" id="lang-toggle" class="lang-btn" data-i18n="langSwitch"></button></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg" aria-hidden="true">
+            <div class="hero-base"></div>
+            <div class="hero-glow"></div>
+            <div class="hero-docs hero-docs--back">
+                <span class="hero-doc hero-doc--ghost" style="--x:1%;--y:4%;--r:-12deg;--fx:-4px;--d:0s;--i:0"><i></i><b>ИОТ</b><em>инструкция</em></span>
+                <span class="hero-doc hero-doc--ghost" style="--x:80%;--y:3%;--r:8deg;--fx:4px;--d:2.5s;--i:1"><i></i><b>ISO 45001</b><em>система ОТ</em></span>
+                <span class="hero-doc hero-doc--ghost" style="--x:82%;--y:40%;--r:-5deg;--fx:4px;--d:5s;--i:2"><i></i><b>НПА</b><em>норматив</em></span>
+                <span class="hero-doc hero-doc--ghost" style="--x:2%;--y:84%;--r:6deg;--fx:-4px;--d:7s;--i:3"><i></i><b>СОУТ</b><em>оценка</em></span>
+                <span class="hero-doc hero-doc--ghost" style="--x:84%;--y:78%;--r:-8deg;--fx:4px;--d:9s;--i:4"><i></i><b>Журнал</b><em>учёт</em></span>
+            </div>
+            <div class="hero-docs hero-docs--front">
+                <span class="hero-doc" style="--x:2%;--y:10%;--r:-9deg;--fx:-4px;--d:0.4s;--i:0"><i></i><b>ИОТ</b><em>на работе</em></span>
+                <span class="hero-doc" style="--x:4%;--y:52%;--r:6deg;--fx:-4px;--d:1.8s;--i:1"><i></i><b>ППР</b><em>по профессии</em></span>
+                <span class="hero-doc" style="--x:82%;--y:8%;--r:4deg;--fx:4px;--d:3.2s;--i:2"><i></i><b>Приказ</b><em>о назначении</em></span>
+                <span class="hero-doc" style="--x:80%;--y:48%;--r:-7deg;--fx:4px;--d:4.6s;--i:3"><i></i><b>ISO 45001</b><em>сертификат</em></span>
+                <span class="hero-doc" style="--x:3%;--y:82%;--r:5deg;--fx:-4px;--d:2.4s;--i:4"><i></i><b>Положение</b><em>по ОТ</em></span>
+                <span class="hero-doc" style="--x:84%;--y:24%;--r:-3deg;--fx:4px;--d:5.8s;--i:5"><i></i><b>ДИ</b><em>должностная</em></span>
+                <span class="hero-doc" style="--x:1%;--y:34%;--r:-6deg;--fx:-4px;--d:6.4s;--i:6"><i></i><b>ЛПА</b><em>локальный акт</em></span>
+                <span class="hero-doc" style="--x:5%;--y:42%;--r:7deg;--fx:-4px;--d:7.2s;--i:7"><i></i><b>Регламент</b><em>проверки</em></span>
+                <span class="hero-doc" style="--x:81%;--y:38%;--r:2deg;--fx:4px;--d:8s;--i:8"><i></i><b>СИЗ</b><em>перечень</em></span>
+                <span class="hero-doc" style="--x:83%;--y:18%;--r:9deg;--fx:4px;--d:9.6s;--i:9"><i></i><b>Расп.</b><em>распоряжение</em></span>
+                <span class="hero-doc" style="--x:2%;--y:76%;--r:-4deg;--fx:-4px;--d:10.2s;--i:10"><i></i><b>Акт</b><em>проверки</em></span>
+                <span class="hero-doc" style="--x:79%;--y:62%;--r:-10deg;--fx:4px;--d:11s;--i:11"><i></i><b>Инструктаж</b><em>журнал</em></span>
+            </div>
+            <div class="hero-sectors">
+                <span class="sector-icon" style="--sx:12%;--sy:38%">⚡</span>
+                <span class="sector-icon" style="--sx:78%;--sy:68%">🏗️</span>
+                <span class="sector-icon" style="--sx:65%;--sy:18%">⚙️</span>
+                <span class="sector-icon" style="--sx:22%;--sy:72%">🧪</span>
+                <span class="sector-icon" style="--sx:48%;--sy:12%">🔩</span>
+                <span class="sector-icon" style="--sx:35%;--sy:52%">⛏️</span>
+                <span class="sector-icon" style="--sx:88%;--sy:82%">🏪</span>
+                <span class="sector-icon" style="--sx:55%;--sy:82%">🍽️</span>
+            </div>
+            <div class="hero-sector-labels">
+                <span class="sector-label">Теплоэнергетика</span>
+                <span class="sector-label">Строительство</span>
+                <span class="sector-label">Машиностроение</span>
+                <span class="sector-label">Химия</span>
+                <span class="sector-label">Металлургия</span>
+                <span class="sector-label">Горнодобыча</span>
+                <span class="sector-label">Торговля</span>
+                <span class="sector-label">Общепит</span>
+            </div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 data-i18n="heroName"></h1>
+            <p class="subtitle" data-i18n="heroSubtitle"></p>
+            <div class="tagline" data-i18n="heroTagline"></div>
+            <br>
+            <a href="#contact" class="btn" data-i18n="heroCta"></a>
+            <a href="tel:+375292383252" class="btn btn-outline">📞 +375 29 238-32-52</a>
+            <a href="https://t.me/FantastisheBot" target="_blank" rel="noopener" class="btn btn-outline">✈️ Telegram @FantastisheBot</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item"><h3>36</h3><p data-i18n="stat1"></p></div>
+            <div class="stat-item"><h3>12</h3><p data-i18n="stat2"></p></div>
+            <div class="stat-item"><h3>50+</h3><p data-i18n="stat3"></p></div>
+            <div class="stat-item"><h3>162+</h3><p data-i18n="stat4"></p></div>
+            <div class="stat-item"><h3>16</h3><p data-i18n="stat5"></p></div>
+            <div class="stat-item"><h3>8</h3><p data-i18n="stat6"></p></div>
+        </div>
+    </section>
+
+    <section class="about section-with-video" id="about">
+        <div class="section-video-bg" aria-hidden="true">
+            <video class="section-video" autoplay muted loop playsinline poster="images/industrial-inspection.png">
+                <source src="videos/construction.mp4?v=20260822i" type="video/mp4">
+            </video>
+            <div class="section-video-overlay"></div>
+        </div>
+        <div class="section-video-content">
+        <h2 data-i18n="aboutTitle"></h2>
+        <div class="about-content">
+            <div class="about-photo" id="about-photo">
+                <img class="about-photo__img about-photo__img--suit" src="images/portrait-about.png?v=20260822h" alt="Дубовик Виктор Викторович" fetchpriority="high" decoding="async">
+                <img class="about-photo__img about-photo__img--office" src="images/portrait-office.png?v=20260822h" alt="" decoding="async">
+            </div>
+            <div class="about-text">
+                <h3 data-i18n="aboutH1"></h3>
+                <p data-i18n="aboutP1"></p>
+                <p data-i18n="aboutP2"></p>
+                <h3 data-i18n="aboutH2"></h3>
+                <ul>
+                    <li data-i18n="aboutInd1"></li>
+                    <li data-i18n="aboutInd2"></li>
+                    <li data-i18n="aboutInd3"></li>
+                    <li data-i18n="aboutInd4"></li>
+                    <li data-i18n="aboutInd5"></li>
+                    <li data-i18n="aboutInd6"></li>
+                    <li data-i18n="aboutInd7"></li>
+                    <li data-i18n="aboutInd8"></li>
+                </ul>
+                <h3 data-i18n="aboutH3"></h3>
+                <ul>
+                    <li data-i18n="aboutTech1"></li>
+                    <li data-i18n="aboutTech2"></li>
+                    <li data-i18n="aboutTech3"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="education-block">
+            <h3 data-i18n="eduTitle"></h3>
+            <div class="education-list">
+                <article class="edu-item">
+                    <div class="edu-year">2013</div>
+                    <div class="edu-content">
+                        <h4 data-i18n="edu1School"></h4>
+                        <p class="edu-degree" data-i18n="edu1Degree"></p>
+                        <p class="edu-meta" data-i18n="edu1Meta"></p>
+                    </div>
+                </article>
+                <article class="edu-item">
+                    <div class="edu-year">1995</div>
+                    <div class="edu-content">
+                        <h4 data-i18n="edu2School"></h4>
+                        <p class="edu-degree" data-i18n="edu2Degree"></p>
+                        <p class="edu-meta" data-i18n="edu2Meta"></p>
+                    </div>
+                </article>
+                <article class="edu-item">
+                    <div class="edu-year">1988</div>
+                    <div class="edu-content">
+                        <h4 data-i18n="edu3School"></h4>
+                        <p class="edu-degree" data-i18n="edu3Degree"></p>
+                        <p class="edu-meta" data-i18n="edu3Meta"></p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="services section-with-video" id="services">
+        <div class="section-video-bg" aria-hidden="true">
+            <video class="section-video" autoplay muted loop playsinline>
+                <source src="videos/chemical.mp4?v=20260822i" type="video/mp4">
+            </video>
+            <div class="section-video-overlay"></div>
+        </div>
+        <div class="section-video-content">
+        <h2 data-i18n="servicesTitle"></h2>
+        <div class="services-grid">
+            <div class="service-card service-card-wide">
+                <div class="service-icon">📋</div>
+                <h3 data-i18n="svc1Title"></h3>
+                <p class="service-lead" data-i18n="svc1lead"></p>
+                <ul>
+                    <li data-i18n="svc1i1"></li><li data-i18n="svc1i2"></li><li data-i18n="svc1i3"></li>
+                    <li data-i18n="svc1i4"></li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎬</div>
+                <h3 data-i18n="svc2Title"></h3>
+                <ul>
+                    <li data-i18n="svc2i1"></li><li data-i18n="svc2i2"></li>
+                    <li data-i18n="svc2i3"></li><li data-i18n="svc2i4"></li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔍</div>
+                <h3 data-i18n="svc3Title"></h3>
+                <ul>
+                    <li data-i18n="svc3i1"></li><li data-i18n="svc3i2"></li>
+                    <li data-i18n="svc3i3"></li><li data-i18n="svc3i4"></li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🤖</div>
+                <h3 data-i18n="svc4Title"></h3>
+                <ul>
+                    <li data-i18n="svc4i1"></li><li data-i18n="svc4i2"></li>
+                    <li data-i18n="svc4i3"></li><li data-i18n="svc4i4"></li>
+                    <li data-i18n="svc4i5"></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="pricing section-with-video" id="pricing">
+        <div class="section-video-bg" aria-hidden="true">
+            <video class="section-video" autoplay muted loop playsinline>
+                <source src="videos/store.mp4?v=20260822i" type="video/mp4">
+            </video>
+            <div class="section-video-overlay"></div>
+        </div>
+        <div class="section-video-content">
+        <h2 data-i18n="pricingTitle"></h2>
+        <div class="pricing-list">
+            <div class="pricing-item"><span data-i18n="price1"></span><span class="price">от 150 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price2"></span><span class="price">от 120 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price3"></span><span class="price">от 400 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price4"></span><span class="price">от 100 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price5"></span><span class="price">от 500 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price6"></span><span class="price">от 200 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price7"></span><span class="price">от 400 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price8"></span><span class="price">от 900 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price9"></span><span class="price">от 100 BYN</span></div>
+            <div class="pricing-item"><span data-i18n="price10"></span><span class="price">от 120 BYN</span></div>
+            <div class="pricing-note" data-i18n="pricingNote"></div>
+        </div>
+        <div class="center-mt"><a href="#contact" class="btn" data-i18n="pricingCta"></a></div>
+        </div>
+    </section>
+
+    <section class="process section-with-video" id="process">
+        <div class="section-video-bg" aria-hidden="true">
+            <video class="section-video" autoplay muted loop playsinline poster="images/conference.png">
+                <source src="videos/kitchen.mp4?v=20260822i" type="video/mp4">
+            </video>
+            <div class="section-video-overlay"></div>
+        </div>
+        <div class="section-video-content">
+        <h2 data-i18n="processTitle"></h2>
+        <div class="process-steps">
+            <div class="step"><div class="step-number">1</div><div class="step-content"><h3 data-i18n="step1t"></h3><p data-i18n="step1p"></p></div></div>
+            <div class="step"><div class="step-number">2</div><div class="step-content"><h3 data-i18n="step2t"></h3><p data-i18n="step2p"></p></div></div>
+            <div class="step"><div class="step-number">3</div><div class="step-content"><h3 data-i18n="step3t"></h3><p data-i18n="step3p"></p></div></div>
+            <div class="step"><div class="step-number">4</div><div class="step-content"><h3 data-i18n="step4t"></h3><p data-i18n="step4p"></p></div></div>
+            <div class="step"><div class="step-number">5</div><div class="step-content"><h3 data-i18n="step5t"></h3><p data-i18n="step5p"></p></div></div>
+        </div>
+        </div>
+    </section>
+
+    <section class="why-me" id="why-me">
+        <h2 data-i18n="whyTitle"></h2>
+        <div class="why-grid">
+            <div class="why-item"><h3 data-i18n="why1t"></h3><p data-i18n="why1p"></p></div>
+            <div class="why-item"><h3 data-i18n="why2t"></h3><p data-i18n="why2p"></p></div>
+            <div class="why-item"><h3 data-i18n="why3t"></h3><p data-i18n="why3p"></p></div>
+            <div class="why-item"><h3 data-i18n="why4t"></h3><p data-i18n="why4p"></p></div>
+            <div class="why-item"><h3 data-i18n="why5t"></h3><p data-i18n="why5p"></p></div>
+            <div class="why-item"><h3 data-i18n="why6t"></h3><p data-i18n="why6p"></p></div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2 data-i18n="galleryTitle"></h2>
+        <h3 class="gallery-subtitle" data-i18n="galleryRealTitle"></h3>
+        <div class="gallery-grid">
+            <figure class="gallery-item">
+                <img src="images/conference.png" alt="" loading="lazy">
+                <figcaption data-i18n="photoConference"></figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/industrial-inspection.png" alt="" loading="lazy">
+                <figcaption data-i18n="photoIndustrial"></figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/belaz-mine.png" alt="" loading="lazy">
+                <figcaption data-i18n="photoBelaz"></figcaption>
+            </figure>
+        </div>
+        <h3 class="gallery-subtitle" data-i18n="galleryBrandTitle"></h3>
+        <div class="gallery-grid gallery-grid-brands">
+            <figure class="gallery-item">
+                <img src="images/brand-amkodor.png?v=20260822l" alt="" loading="lazy">
+                <figcaption data-i18n="brandAmkodor"></figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/brand-mmpz.png?v=20260822l" alt="" loading="lazy">
+                <figcaption data-i18n="brandMmpz"></figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/brand-bnbk.png?v=20260822l" alt="" loading="lazy">
+                <figcaption data-i18n="brandBnbk"></figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/brand-aquatis.png?v=20260823o" alt="" loading="lazy">
+                <figcaption data-i18n="brandAquatis"></figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/brand-dimoldura.png?v=20260823n" alt="" loading="lazy">
+                <figcaption data-i18n="brandDimoldura"></figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 data-i18n="contactTitle"></h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>📞 <a href="tel:+375292383252">+375 29 238-32-52</a><br><span data-i18n="contactPhoneNote"></span></p>
+                <p>✈️ <span data-i18n="contactTelegramLabel"></span><br><a href="https://t.me/FantastisheBot" target="_blank" rel="noopener">@FantastisheBot</a></p>
+                <p>✉️ <a href="mailto:vik9911@gmail.com">vik9911@gmail.com</a></p>
+                <p>📍 <span data-i18n="contactLocation"></span><br><span data-i18n="contactLocationNote"></span></p>
+                <p>🌐 <a href="http://207.154.238.178/">http://207.154.238.178/</a> <span data-i18n="contactSiteOwnServer"></span></p>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true">
+                <div class="form-group">
+                    <label for="name" data-i18n="formName"></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" data-i18n="formPhone"></label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="formMessage"></label>
+                    <textarea id="message" name="message" rows="4" data-i18n-placeholder="formPlaceholder"></textarea>
+                </div>
+                <p id="form-status" class="form-status" aria-live="polite"></p>
+                <button type="submit" class="btn btn-full" data-i18n="formSubmit"></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Дубовик Виктор Викторович / Viktor Dubovik</p>
+        <p data-i18n="footerRole"></p>
+        <p><span data-i18n="footerLegal"></span><br><span data-i18n="footerLegal2"></span></p>
+        <p class="footer-links">
+            <a href="https://t.me/FantastisheBot" target="_blank" rel="noopener">Telegram @FantastisheBot</a> |
+            <a href="mailto:vik9911@gmail.com">Email</a> |
+            <a href="http://207.154.238.178/">http://207.154.238.178/</a> <span data-i18n="contactSiteOwnServer"></span>
+        </p>
+    </footer>
+
+    <button type="button" class="mobile-menu-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});" aria-label="Contact">✉</button>
+
+    <script src="i18n.js?v=20260823g"></script>
+    <script src="app.js?v=20260823g"></script>
+</body>
+</html>
