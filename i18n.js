@@ -1,7 +1,7 @@
 window.DUBOVIK_I18N = {
   ru: {
     metaDescription:
-      "Дубовик Виктор Викторович — инженер по промышленной безопасности. 36 лет опыта, 12 лет в Госпромнадзоре. Инструкции, рецензия ППР в части безопасности, аудит. Тел. +375 29 238-32-52",
+      "Дубовик Виктор Викторович — инженер по промышленной безопасности. 38 лет опыта, 12 лет в Госпромнадзоре. Инструкции, рецензия ППР в части безопасности, аудит. Тел. +375 29 238-32-52",
     pageTitle: "Инженер по промышленной безопасности | Минск | Дубовик В.В.",
     navHome: "Главная",
     navAbout: "Обо мне",
@@ -145,7 +145,7 @@ window.DUBOVIK_I18N = {
   },
   pt: {
     metaDescription:
-      "Viktor Dubovik — engenheiro de segurança industrial. 36 anos de experiência, 12 anos na inspeção estatal. Instruções, revisão de PPR em matéria de segurança, auditoria. Tel. +375 29 238-32-52",
+      "Viktor Dubovik — engenheiro de segurança industrial. 38 anos de experiência, 12 anos na inspeção estatal. Instruções, revisão de PPR em matéria de segurança, auditoria. Tel. +375 29 238-32-52",
     pageTitle: "Engenheiro de Segurança Industrial | Minsk | Viktor Dubovik",
     navHome: "Início",
     navAbout: "Sobre mim",
