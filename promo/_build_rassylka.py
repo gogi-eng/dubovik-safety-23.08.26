@@ -432,7 +432,7 @@ def main() -> None:
     Источник: публичный поиск на <a href="https://rabota.by" target="_blank" rel="noopener">rabota.by</a>
     (запросы «инженер по охране труда», «промышленная безопасность»).<br />
     Визитка для письма:
-    <a href="http://207.154.238.178/promo/vizitka-rassylka.html" target="_blank" rel="noopener">vizitka-rassylka.html</a><br />
+    <a href="http://ot-pb.by/promo/vizitka-rassylka.html" target="_blank" rel="noopener">vizitka-rassylka.html</a><br />
     Записей в таблице: <strong>{len(unique)}</strong>. Дата сбора: 23.08.2026.
   </p>
   <div class="warn">
