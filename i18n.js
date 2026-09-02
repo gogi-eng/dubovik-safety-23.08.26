@@ -1,7 +1,7 @@
 window.DUBOVIK_I18N = {
   ru: {
     metaDescription:
-      "Дубовик Виктор Викторович — инженер по промышленной безопасности. 36 лет опыта, 12 лет в Госпромнадзоре. Инструкции, рецензия ППР, аудит. Тел. +375 29 238-32-52",
+      "Дубовик Виктор Викторович — инженер по промышленной безопасности. 36 лет опыта, 12 лет в Госпромнадзоре. Инструкции, рецензия ППР в части безопасности, аудит. Тел. +375 29 238-32-52",
     pageTitle: "Инженер по промышленной безопасности | Минск | Дубовик В.В.",
     navHome: "Главная",
     navAbout: "Обо мне",
@@ -68,7 +68,7 @@ window.DUBOVIK_I18N = {
     svc1lead:
       "Изготовлю, отредактирую любую документацию по охране труда, промышленной и пожарной безопасности, должностные и рабочие инструкции, положения, приказы, распоряжения и т.п.",
     svc1i1: "Инструкции по охране труда",
-    svc1i2: "Экспертная рецензия ППР",
+    svc1i2: "Экспертная рецензия ППР, в части безопасности",
     svc1i3: "Руководства СУОТ (ISO 45001-2018)",
     svc1i4: "Локальные правовые акты и перечни СИЗ",
     svc2Title: "Видеоролики",
@@ -89,7 +89,7 @@ window.DUBOVIK_I18N = {
     pricingTitle: "СТОИМОСТЬ УСЛУГ",
     price1: "Инструкция по охране труда",
     price2: "Памятка / плакат для инструктажа",
-    price3: "Экспертная рецензия ППР",
+    price3: "Экспертная рецензия ППР, в части безопасности",
     price4: "Комплект проверочных билетов",
     price5: "Аудит документации по ОТ/ПБ",
     price6: "Подготовка ответа на предписание",
@@ -133,7 +133,7 @@ window.DUBOVIK_I18N = {
     formPhone: "Телефон",
     formMessage: "Сообщение (опишите задачу)",
     formPlaceholder:
-      "Например: нужна рецензия ППР и аудит документации перед проверкой Госпромнадзора",
+      "Например: нужна рецензия ППР в части безопасности и аудит документации перед проверкой Госпромнадзора",
     formSubmit: "Отправить заявку",
     formSending: "Отправка…",
     formSuccess: "Спасибо! Заявка отправлена. Я свяжусь с вами в ближайшее время.",
@@ -145,7 +145,7 @@ window.DUBOVIK_I18N = {
   },
   pt: {
     metaDescription:
-      "Viktor Dubovik — engenheiro de segurança industrial. 36 anos de experiência, 12 anos na inspeção estatal. Instruções, revisão de PPR, auditoria. Tel. +375 29 238-32-52",
+      "Viktor Dubovik — engenheiro de segurança industrial. 36 anos de experiência, 12 anos na inspeção estatal. Instruções, revisão de PPR em matéria de segurança, auditoria. Tel. +375 29 238-32-52",
     pageTitle: "Engenheiro de Segurança Industrial | Minsk | Viktor Dubovik",
     navHome: "Início",
     navAbout: "Sobre mim",
@@ -213,7 +213,7 @@ window.DUBOVIK_I18N = {
     svc1lead:
       "Elaboro e edito qualquer documentação de saúde no trabalho, segurança industrial e contra incêndios, instruções de funções e de trabalho, regulamentos, ordens, despachos, etc.",
     svc1i1: "Instruções de segurança no trabalho",
-    svc1i2: "Revisão especializada de PPR",
+    svc1i2: "Revisão especializada de PPR em matéria de segurança",
     svc1i3: "Manuais SGST (ISO 45001-2018)",
     svc1i4: "Actos legais locais e listas de EPI",
     svc2Title: "Vídeos",
@@ -234,7 +234,7 @@ window.DUBOVIK_I18N = {
     pricingTitle: "PREÇOS",
     price1: "Instrução de segurança no trabalho",
     price2: "Memorando / cartaz para instrução",
-    price3: "Revisão especializada de PPR",
+    price3: "Revisão especializada de PPR em matéria de segurança",
     price4: "Conjunto de testes de verificação",
     price5: "Auditoria de documentação SST/SI",
     price6: "Resposta a prescrição",
@@ -278,7 +278,7 @@ window.DUBOVIK_I18N = {
     formPhone: "Telefone",
     formMessage: "Mensagem (descreva a tarefa)",
     formPlaceholder:
-      "Ex.: revisão de PPR e auditoria de documentação antes da inspeção do GosPromNadzor",
+      "Ex.: revisão de PPR em matéria de segurança e auditoria de documentação antes da inspeção do GosPromNadzor",
     formSubmit: "Enviar pedido",
     formSending: "A enviar…",
     formSuccess: "Obrigado! Pedido enviado. Entrarei em contacto em breve.",
