@@ -69,7 +69,7 @@ window.DUBOVIK_I18N = {
     servicesTitle: "УСЛУГИ",
     svc1Title: "Документация по ОТ, ПБ и пожарной безопасности",
     svc1lead:
-      "Изготовлю, отредактирую любую документацию по охране труда, промышленной и пожарной безопасности, должностные и рабочие инструкции, положения, приказы, распоряжения и т.п.",
+      "Изготовлю, отредактирую любую документацию по охране труда, промышленной и пожарной безопасности, включая весь пакет документов по охране труда (ОТ), промышленной безопасности и пожарной безопасности, должностные и рабочие инструкции, положения, приказы, распоряжения и т.п.",
     svc1i1: "Инструкции по охране труда",
     svc1i2: "Экспертная рецензия ППР, в части безопасности",
     svc1i3: "Руководства СУОТ (ISO 45001-2018)",
@@ -220,7 +220,7 @@ window.DUBOVIK_I18N = {
     servicesTitle: "SERVIÇOS",
     svc1Title: "Documentação SST, SI e segurança contra incêndios",
     svc1lead:
-      "Elaboro e edito qualquer documentação de saúde no trabalho, segurança industrial e contra incêndios, instruções de funções e de trabalho, regulamentos, ordens, despachos, etc.",
+      "Elaboro e edito qualquer documentação de saúde no trabalho, segurança industrial e contra incêndios, incluindo o pacote completo de documentos de SST (saúde e segurança no trabalho), segurança industrial e contra incêndios, instruções de funções e de trabalho, regulamentos, ordens, despachos, etc.",
     svc1i1: "Instruções de segurança no trabalho",
     svc1i2: "Revisão especializada de PPR em matéria de segurança",
     svc1i3: "Manuais SGST (ISO 45001-2018)",
