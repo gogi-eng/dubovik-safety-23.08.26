@@ -75,7 +75,7 @@ window.DUBOVIK_I18N = {
     svc1i3: "Руководства СУОТ (ISO 45001-2018)",
     svc1i4: "Локальные правовые акты и перечни СИЗ",
     svc1i5:
-      "Литературная правка документации с соблюдением делопроизводства Республики Беларусь",
+      "Правка документации с соблюдением делопроизводства Республики Беларусь",
     svc2Title: "Видеоролики",
     svc2i1: "Обучающие видео для инструктажей",
     svc2i2: "Видеоинструкции «на языке профессии»",
@@ -226,7 +226,7 @@ window.DUBOVIK_I18N = {
     svc1i3: "Manuais SGST (ISO 45001-2018)",
     svc1i4: "Actos legais locais e listas de EPI",
     svc1i5:
-      "Revisão literária da documentação com observância da gestão documental da República da Bielorrússia",
+      "Revisão da documentação com observância da gestão documental da República da Bielorrússia",
     svc2Title: "Vídeos",
     svc2i1: "Vídeos formativos para instruções",
     svc2i2: "Vídeo-instruções «na linguagem da profissão»",
