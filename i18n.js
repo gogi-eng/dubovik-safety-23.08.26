@@ -119,7 +119,7 @@ window.DUBOVIK_I18N = {
     whyTitle: "ПОЧЕМУ ВЫБИРАЮТ ИМЕННО МЕНЯ",
     why1t: "✓ 12 лет в Госпромнадзоре",
     why1p:
-      "Знаю, что ищет инспектор и как оформляются замечания. Документы с моим участием не вызывают вопросов при проверках.",
+      "Знаю, что ищет инспектор и как оформляются замечания. Умею правильно изложить технические требования на бумаге со ссылками на нормативную базу. Документы с моим участием не вызывают вопросов при проверках.",
     why2t: "✓ 50+ экспертиз промышленной безопасности",
     why2p: "Включая международный опыт работы за рубежом (Португалия, Испания, Польша, Украина, РФ и др.).",
     why3t: "✓ Преподавательская практика",
@@ -270,7 +270,7 @@ window.DUBOVIK_I18N = {
     whyTitle: "PORQUÊ ESCOLHER-ME",
     why1t: "✓ 12 anos no GosPromNadzor",
     why1p:
-      "Sei o que o inspetor procura e como se formalizam as observações. Documentos com a minha participação passam inspeções sem questões.",
+      "Sei o que o inspetor procura e como se formalizam as observações. Sei formular corretamente os requisitos técnicos por escrito, com referências à base normativa. Documentos com a minha participação passam inspeções sem questões.",
     why2t: "✓ 50+ perícias de segurança industrial",
     why2p: "Incluindo experiência internacional (Portugal, Espanha, Polónia, Ucrânia, Rússia e outros países).",
     why3t: "✓ Experiência docente",
