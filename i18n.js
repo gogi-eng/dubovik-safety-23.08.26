@@ -41,6 +41,9 @@ window.DUBOVIK_I18N = {
     aboutTech1: "Владею вайбкодингом и промпт-инжинирингом",
     aboutTech2: "Применяю ИИ для ускорения аналитики и документооборота",
     aboutTech3: "Разрабатываю Excel-системы учёта и контроля",
+    aboutH4: "Навыки:",
+    aboutSkill1:
+      "Грамотная письменная речь и оформление документов по нормам русского языка и правилам делопроизводства РБ",
     eduTitle: "Образование",
     edu1School: "Университет гражданской защиты Министерства по чрезвычайным ситуациям РБ, Минск",
     edu1Degree: "инженер промышленной безопасности",
@@ -71,6 +74,8 @@ window.DUBOVIK_I18N = {
     svc1i2: "Экспертная рецензия ППР, в части безопасности",
     svc1i3: "Руководства СУОТ (ISO 45001-2018)",
     svc1i4: "Локальные правовые акты и перечни СИЗ",
+    svc1i5:
+      "Литературная правка документации с соблюдением делопроизводства Республики Беларусь",
     svc2Title: "Видеоролики",
     svc2i1: "Обучающие видео для инструктажей",
     svc2i2: "Видеоинструкции «на языке профессии»",
@@ -88,6 +93,7 @@ window.DUBOVIK_I18N = {
     svc4i5: "Базы данных оборудования с контролем сроков ремонта, испытаний и освидетельствований",
     pricingTitle: "СТОИМОСТЬ УСЛУГ",
     price1: "Инструкция по охране труда",
+    price1Amt: "от 50 до 150 BYN, в зависимости от объёма и направления",
     price2: "Памятка / плакат для инструктажа",
     price3: "Экспертная рецензия ППР, в части безопасности",
     price4: "Комплект проверочных билетов",
@@ -186,6 +192,9 @@ window.DUBOVIK_I18N = {
     aboutTech1: "Domínio de ferramentas de IA e engenharia de prompts",
     aboutTech2: "Uso de IA para acelerar análise e documentação",
     aboutTech3: "Desenvolvimento de sistemas Excel de controlo",
+    aboutH4: "Competências:",
+    aboutSkill1:
+      "Redação escrita correta e formalização de documentos segundo as normas da língua russa e as regras de gestão documental da Bielorrússia",
     eduTitle: "Formação académica",
     edu1School: "Universidade de Proteção Civil do Ministério das Situações de Emergência da Bielorrússia, Minsk",
     edu1Degree: "engenheiro de segurança industrial",
@@ -216,6 +225,8 @@ window.DUBOVIK_I18N = {
     svc1i2: "Revisão especializada de PPR em matéria de segurança",
     svc1i3: "Manuais SGST (ISO 45001-2018)",
     svc1i4: "Actos legais locais e listas de EPI",
+    svc1i5:
+      "Revisão literária da documentação com observância da gestão documental da República da Bielorrússia",
     svc2Title: "Vídeos",
     svc2i1: "Vídeos formativos para instruções",
     svc2i2: "Vídeo-instruções «na linguagem da profissão»",
@@ -233,6 +244,7 @@ window.DUBOVIK_I18N = {
     svc4i5: "Bases de dados de equipamentos com controlo de prazos de reparação, ensaios e inspeções",
     pricingTitle: "PREÇOS",
     price1: "Instrução de segurança no trabalho",
+    price1Amt: "de 50 a 150 BYN, conforme o volume e a área",
     price2: "Memorando / cartaz para instrução",
     price3: "Revisão especializada de PPR em matéria de segurança",
     price4: "Conjunto de testes de verificação",

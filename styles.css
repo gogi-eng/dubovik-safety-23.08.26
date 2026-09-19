@@ -772,7 +772,11 @@
         .pricing-item .price {
             color: var(--accent);
             font-weight: 700;
-            font-size: 1.3rem;
+            font-size: 1.15rem;
+            text-align: right;
+            max-width: 58%;
+            flex-shrink: 0;
+            line-height: 1.35;
         }
 
         .pricing-note {
