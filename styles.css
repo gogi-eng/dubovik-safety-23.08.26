@@ -1197,4 +1197,15 @@ html{scroll-behavior:smooth}
 .service-card-wide{grid-column:1/-1;text-align:left}
 .service-card-wide ul{max-width:900px;margin:1rem auto 0}
 .service-lead{font-size:1.05rem;margin:1rem 0;color:var(--dark);font-weight:600;line-height:1.7}
+.hero-article-link{margin:1.25rem 0 0}
+.hero-article-link a{color:var(--white);font-weight:600;text-decoration:underline;text-underline-offset:.2em}
+.hero-article-link a:hover{color:var(--accent)}
+.checklist{scroll-margin-top:5.5rem}
+.checklist-body{max-width:46rem;margin:0 auto;text-align:left}
+.checklist-lead{font-size:1.15rem;margin-bottom:1.25rem}
+.checklist-note{background:var(--light);border-left:4px solid var(--accent);padding:1rem 1.25rem;margin:0 0 1.5rem;border-radius:0 8px 8px 0}
+.checklist-body h3{text-align:left;color:var(--primary);font-size:1.25rem;margin:1.75rem 0 .6rem}
+.checklist-body p{margin:0 0 1rem}
+.checklist-end{font-weight:600}
+.checklist-cta{margin-top:1.25rem}
 @media(max-width:768px){.gallery-item img,.gallery-grid-brands .gallery-item img{height:220px}.gallery-item--text{min-height:220px}}
