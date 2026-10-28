@@ -13,7 +13,10 @@ window.DUBOVIK_I18N = {
     heroName: "ДУБОВИК ВИКТОР ВИКТОРОВИЧ",
     heroSubtitle: "Инженер по промышленной безопасности и охране труда",
     heroTagline: "«Знаю, как думает проверяющий — 12 лет был инспектором Госпромнадзора»",
-    heroCta: "Получить консультацию",
+    heroOfferTitle: "Бесплатный экспресс-аудит одного документа",
+    heroOfferText:
+      "Пришлите одну инструкцию, один журнал или один ответ на предписание. Посмотрю так, как смотрел бумаги на проверке: 12 лет был инспектором Госпромнадзора. Это один документ и короткий ответ, что бросится в глаза. Полный аудит предприятия и смета — отдельно, если сами попросите.",
+    heroCta: "Прислать документ в Telegram",
     stat1: "лет опыта",
     stat2: "лет в Госпромнадзоре",
     stat3: "экспертиз (РБ и зарубежье)",
@@ -42,8 +45,7 @@ window.DUBOVIK_I18N = {
     aboutTech2: "Применяю ИИ для ускорения аналитики и документооборота",
     aboutTech3: "Разрабатываю Excel-системы учёта и контроля",
     aboutH4: "Навыки:",
-    aboutSkill1:
-      "Грамотная письменная речь и оформление документов по нормам русского языка и правилам делопроизводства РБ",
+    aboutSkill1: "Грамотная письменная и разговорная речь",
     eduTitle: "Образование",
     edu1School: "Университет гражданской защиты Министерства по чрезвычайным ситуациям РБ, Минск",
     edu1Degree: "инженер промышленной безопасности",
@@ -164,7 +166,10 @@ window.DUBOVIK_I18N = {
     heroSubtitle: "Engenheiro de Segurança Industrial e Saúde no Trabalho",
     heroTagline:
       "«Sei como pensa o inspetor — 12 anos fui inspetor do GosPromNadzor»",
-    heroCta: "Pedir consulta",
+    heroOfferTitle: "Auditoria expressa gratuita de um documento",
+    heroOfferText:
+      "Envie uma instrução, um registo ou uma resposta a uma prescrição. Vou ver como via os papéis numa inspeção: durante 12 anos fui inspetor do GosPromNadzor. É um documento e uma resposta curta sobre o que salta à vista. A auditoria completa da empresa e o orçamento ficam à parte, se os pedir.",
+    heroCta: "Enviar documento no Telegram",
     stat1: "anos de experiência",
     stat2: "anos no GosPromNadzor",
     stat3: "perícias (Bielorrússia e estrangeiro)",
@@ -193,8 +198,7 @@ window.DUBOVIK_I18N = {
     aboutTech2: "Uso de IA para acelerar análise e documentação",
     aboutTech3: "Desenvolvimento de sistemas Excel de controlo",
     aboutH4: "Competências:",
-    aboutSkill1:
-      "Redação escrita correta e formalização de documentos segundo as normas da língua russa e as regras de gestão documental da Bielorrússia",
+    aboutSkill1: "Discurso escrito e oral correto",
     eduTitle: "Formação académica",
     edu1School: "Universidade de Proteção Civil do Ministério das Situações de Emergência da Bielorrússia, Minsk",
     edu1Degree: "engenheiro de segurança industrial",

@@ -401,7 +401,11 @@
         .hero-content {
             position: relative;
             z-index: 1;
+            flex: 0 1 900px;
+            width: 100%;
             max-width: 900px;
+            min-width: 0;
+            box-sizing: border-box;
             text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
         }
 
@@ -410,6 +414,7 @@
             margin-bottom: 1rem;
             font-weight: 700;
             letter-spacing: 0.02em;
+            overflow-wrap: break-word;
         }
 
         .hero-content .subtitle {
@@ -421,13 +426,37 @@
         .hero-content .tagline {
             font-size: 1.25rem;
             font-style: italic;
-            margin-bottom: 3rem;
+            margin-bottom: 1.75rem;
             padding: 1rem 2rem;
             border-left: 4px solid var(--accent);
-            display: inline-block;
+            display: block;
+            width: fit-content;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
             text-align: left;
             background: rgba(0, 0, 0, 0.25);
             border-radius: 0 8px 8px 0;
+        }
+
+        .hero-content .hero-offer-title {
+            color: var(--white);
+            font-size: 1.85rem;
+            font-weight: 700;
+            line-height: 1.25;
+            margin: 0 auto 0.85rem;
+            max-width: 18em;
+            text-align: center;
+        }
+
+        .hero-content .hero-offer {
+            color: var(--white);
+            font-size: 1.05rem;
+            line-height: 1.55;
+            margin: 0 auto 1.35rem;
+            max-width: 42rem;
+            opacity: 0.96;
         }
 
         .btn {
@@ -1018,7 +1047,7 @@
             }
 
             .hero-content h1 {
-                font-size: 2rem;
+                font-size: 1.7rem;
             }
 
             .hero-content .subtitle {
@@ -1028,6 +1057,14 @@
             .hero-content .tagline {
                 font-size: 1rem;
                 padding: 0.75rem 1rem;
+            }
+
+            .hero-content .hero-offer-title {
+                font-size: 1.45rem;
+            }
+
+            .hero-content .hero-offer {
+                font-size: 0.98rem;
             }
 
             .about-content {
