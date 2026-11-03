@@ -1238,4 +1238,9 @@ html{scroll-behavior:smooth}
 .checklist-body p{margin:0 0 1rem}
 .checklist-end{font-weight:600}
 .checklist-cta{margin-top:1.25rem}
+.vision-zero{background:var(--white);scroll-margin-top:5.5rem}
+.vision-zero h2{margin-bottom:1.5rem}
+.vision-zero-body{max-width:46rem;margin:0 auto;text-align:left;background:var(--light);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;padding:1.35rem 1.5rem 1.15rem}
+.vision-zero-body p{margin:0 0 1rem;line-height:1.8}
+.vision-zero-body p:last-child{margin-bottom:0}
 @media(max-width:768px){.gallery-item img,.gallery-grid-brands .gallery-item img{height:220px}.gallery-item--text{min-height:220px}}
