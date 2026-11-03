@@ -418,9 +418,13 @@
         }
 
         .hero-content .subtitle {
-            font-size: 1.5rem;
+            font-size: 1.35rem;
+            line-height: 1.45;
             margin-bottom: 2rem;
             opacity: 0.95;
+            max-width: 46rem;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .hero-content .tagline {
@@ -789,9 +793,16 @@
         .pricing-item {
             display: flex;
             justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
             padding: 1.5rem 0;
             border-bottom: 2px solid var(--white);
             font-size: 1.1rem;
+        }
+
+        .pricing-item > span:first-child {
+            flex: 1 1 auto;
+            min-width: 0;
         }
 
         .pricing-item:last-child {
@@ -855,6 +866,12 @@
         .step-content h3 {
             color: var(--primary);
             margin-bottom: 0.5rem;
+        }
+
+        .step-content h3:empty,
+        .why-item p:empty {
+            display: none;
+            margin: 0;
         }
 
         /* Why Me Section */
@@ -1051,7 +1068,18 @@
             }
 
             .hero-content .subtitle {
-                font-size: 1.2rem;
+                font-size: 1.05rem;
+            }
+
+            .pricing-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.35rem;
+            }
+
+            .pricing-item .price {
+                max-width: none;
+                text-align: left;
             }
 
             .hero-content .tagline {
@@ -1197,6 +1225,8 @@ html{scroll-behavior:smooth}
 .service-card-wide{grid-column:1/-1;text-align:left}
 .service-card-wide ul{max-width:900px;margin:1rem auto 0}
 .service-lead{font-size:1.05rem;margin:1rem 0;color:var(--dark);font-weight:600;line-height:1.7}
+.services-intro{max-width:46rem;margin:-1.5rem auto 2.5rem;text-align:center;font-size:1.15rem;line-height:1.7}
+.gallery-note{max-width:46rem;margin:-1rem auto 0;text-align:center;line-height:1.7}
 .hero-article-link{margin:1.25rem 0 0}
 .hero-article-link a{color:var(--white);font-weight:600;text-decoration:underline;text-underline-offset:.2em}
 .hero-article-link a:hover{color:var(--accent)}
