@@ -900,6 +900,10 @@
             font-size: 1.3rem;
         }
 
+        .why-reg {
+            margin-top: 0.65rem;
+        }
+
         /* Contact Section */
         .contact {
             background: var(--primary);
@@ -979,6 +983,12 @@
         footer a {
             color: var(--white);
             text-decoration: none;
+        }
+
+        .footer-reg {
+            max-width: 46rem;
+            margin: 0.75rem auto 0;
+            line-height: 1.5;
         }
 
         /* Mobile Menu */
