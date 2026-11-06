@@ -131,6 +131,8 @@ window.DUBOVIK_I18N = {
     why4p: "Специфику каждой я видел изнутри.",
     why5t: "Работа официальная: я зарегистрирован и плачу налоги.",
     why5p: "У вас остаются договор, акт и чек.",
+    regCertificate:
+      "ИП Дубовик Виктор Викторович. Свидетельство о государственной регистрации от 5 ноября 2026 г., Минский горисполком. Регистрационный номер 194056665.",
     contactTitle: "Контакты",
     contactPhoneNote: "(Viber, WhatsApp)",
     contactTelegramLabel: "Telegram",
@@ -282,6 +284,8 @@ window.DUBOVIK_I18N = {
     why4p: "A especificidade de cada um vi de dentro.",
     why5t: "O trabalho é oficial: estou registado e pago impostos.",
     why5p: "Ficam consigo o contrato, a ata e o recibo.",
+    regCertificate:
+      "Empresário individual Dubovik Viktor Viktorovich. Certidão de registo estatal de 5 de novembro de 2026, Comité Executivo da Cidade de Minsk. Número de registo 194056665.",
     contactTitle: "Contactos",
     contactPhoneNote: "(Viber, WhatsApp)",
     contactTelegramLabel: "Telegram",
